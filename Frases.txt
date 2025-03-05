@@ -1,46 +1,16 @@
-luz = 243 
-
-Agua = 100 
-
-internet Vero = 65
-
-internet vivo = 25 
-
-cartão Meu Mercado Livre = 1.037
-
-Cartão Meu Neon = 330
-
-Cartão Will = 272
-
-Cartão Mãe Nubank = 793  
-
-Cartão Pai = 90
-
-
-Total =  2.955
-
-
---------------------------------
-
-Mais - Parcela do Carro = 600
-
-Mais - Pensão = 607
-
-Total =  1.207
-
-2955 + 1207 = 4.162
-
---------------------------------
-
-A Receber Thiago = 200
-Tenho = 300
-Total tenho = 500
-Tenho + 736
-
-Total final = 1.236
-
-A Receber = 2.588 + 1.236 
-
-Total = 3.824
-
-Falta = 338
+Code:
+<etcitem id="6577" name="Blessed Scroll: Enchant Weapon (S)">
+<!-- [blessed_scrl_of_ench_wp_s] -->
+<set name="class" value="MISC"/>
+<set name="crystal_type" value="NONE"/>
+<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_s_i05"/>
+<set name="price" value="30000000"/>
+<set name="stackable" value="false"/> и тут меняем на true (стопкковой).
+<set name="type" value="SCROLL"/>
+<set name="weight" value="120"/>
+<cond msgId="1508">
+<not>
+<player olympiad="true"/>
+</not>
+</cond>
+</etcitem>
